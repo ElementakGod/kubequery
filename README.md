@@ -5,7 +5,7 @@
 ## 架构
 ### 模式
 * kubequeryd 后台进程模式
-* kubequeryi 交互模式
+* kubequery 交互模式
 ### 模块
 * k8s-watch  k8s资源watch
 * kubequery-cli 交互client
@@ -14,5 +14,6 @@
 * k8s-watch: client-go
 * kubequery-cli: 复用sqlite的shell交互
 * watchdog: 协程
-## 例子
-    ==> select name, ip from pod
+## 使用
+![img.png](assets/img.png)
+![img_1.png](assets/img_1.png)
